@@ -2,7 +2,20 @@ import React from "react";
 import "./Getin.css";
 import { FaGithub, FaLinkedin, FaPhoneAlt, FaDownload } from "react-icons/fa";
 import { IoMailSharp } from "react-icons/io5";
+import { makeStyles } from "@material-ui/core/styles";
+import { Container, Grid } from "@material-ui/core";
 import Tooltip from "@material-ui/core/Tooltip";
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  paper: {
+    padding: theme.spacing(0),
+    textAlign: "center",
+    color: theme.palette.text.secondary,
+  },
+}));
 
 function Getin() {
   return (
@@ -79,24 +92,28 @@ function Getin() {
               </div>
 
               <div className="getinright1">
-                <a target="_blank" href="www.linkedin.com/in/nitinmaharshi">
-                  <FaLinkedin className="con" />
-                </a>
-                <a target="_blank" href="https://github.com/NitinMaharshi">
-                  <FaGithub className="con" />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://drive.google.com/drive/u/0/folders/153IXktspcoJdgNwalKY5vdoJj-4C_pds"
-                >
-                  <FaDownload className="con" />
-                </a>
-                <a target="_blank" href="tel:+917023232013">
-                  <FaPhoneAlt className="con" />
-                </a>
-                <a target="_blank" href="mailto:nitin77n@gmail.com">
-                  <IoMailSharp className="con" />
-                </a>
+                <Tooltip title={<h1 style={{ color: "white" }}>Linkedin</h1>}>
+                  <a target="_blank" href="www.linkedin.com/in/nitinmaharshi">
+                    <FaLinkedin className="con" />
+                  </a>
+                </Tooltip>
+
+                <Tooltip title={<h1 style={{ color: "white" }}>Git Hub</h1>}>
+                  <a target="_blank" href="https://github.com/NitinMaharshi">
+                    <FaGithub className="con" />
+                  </a>
+                </Tooltip>
+
+                <Tooltip title={<h1 style={{ color: "white" }}>contect</h1>}>
+                  <a target="_blank" href="tel:+917023232013">
+                    <FaPhoneAlt className="con" />
+                  </a>
+                </Tooltip>
+                <Tooltip title={<h1 style={{ color: "white" }}>Email</h1>}>
+                  <a target="_blank" href="mailto:nitin77n@gmail.com">
+                    <IoMailSharp className="con" />
+                  </a>
+                </Tooltip>
               </div>
             </div>
           </div>

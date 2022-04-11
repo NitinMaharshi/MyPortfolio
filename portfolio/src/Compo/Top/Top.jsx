@@ -9,7 +9,7 @@ function Home() {
     <div id="home_top" className="home_top">
       <div className="home_banner">
         <div>
-          <img src={ban} className="home_image" />
+          <img src={ban} alt="img" className="home_image" />
         </div>
 
         <div className="home_profile">
@@ -30,13 +30,27 @@ function Home() {
             wrapper="p"
             className="home_subtag"
           />
-
-          <Link to="projects" spy={true} smooth={true}>
+          <div className="buttons">
+            <Link
+              to="projects"
+              spy={true}
+              smooth={true}
+              className="marginrigth"
+            >
+              <div className="home_getstarted">
+                <p className="mywork">View my work</p>
+                <p></p>
+              </div>
+            </Link>
             <div className="home_getstarted">
-              <p className="mywork">View my work</p>
-              <p></p>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1A4M3Gw-DmBH-plxnq07GDwG0KmlTYhZY/view?usp=sharing"
+              >
+                <p className="mywork">Resume</p>
+              </a>
             </div>
-          </Link>
+          </div>
         </div>
       </div>
     </div>

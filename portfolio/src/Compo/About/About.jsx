@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 import { IoLogoJavascript, IoMailSharp } from "react-icons/io5";
 import { DiMongodb, DiFirebase } from "react-icons/di";
-import { SiTypescript, SiRedux } from "react-icons/si";
+import { SiTypescript, SiRedux, SiExpress, SiMaterialui } from "react-icons/si";
 import { TiLocation } from "react-icons/ti";
 import { makeStyles } from "@material-ui/core/styles";
 import { Container, Grid } from "@material-ui/core";
@@ -77,17 +77,20 @@ function About() {
                   </div>
                 </Tooltip>
               </div>
+
               <div className="left_bar">
                 <Tooltip title={<h1 style={{ color: "white" }}>ReactJs</h1>}>
                   <div className="tech">
                     <FaReact style={{ color: "white", fontSize: "80px" }} />
                   </div>
                 </Tooltip>
+
                 <Tooltip title={<h1 style={{ color: "white" }}>Redux</h1>}>
                   <div className="tech">
                     <SiRedux style={{ color: "white", fontSize: "80px" }} />
                   </div>
                 </Tooltip>
+
                 <Tooltip title={<h1 style={{ color: "white" }}>JavaScript</h1>}>
                   <div className="tech">
                     <IoLogoJavascript
