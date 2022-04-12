@@ -159,22 +159,6 @@ function About() {
                 <p className="number">
                   <IoMailSharp /> nitin77n@gmail.com
                 </p>
-                <div style={{ display: "flex", flexDirection: "row" }}>
-                  <a
-                    target="_blank"
-                    href="https://drive.google.com/drive/u/0/folders/153IXktspcoJdgNwalKY5vdoJj-4C_pds"
-                  >
-                    <h3
-                      style={{
-                        marginTop: "3px",
-                        fontSize: "20px",
-                        color: "white",
-                      }}
-                    >
-                      View Full Resume
-                    </h3>
-                  </a>
-                </div>
               </div>
             </div>
           </Grid>
