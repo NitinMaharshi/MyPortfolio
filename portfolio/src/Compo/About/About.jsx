@@ -154,7 +154,8 @@ function About() {
                   </span>
                 </p>
                 <p className="number">
-                  <FaPhoneAlt /> +91-7023232013
+                  <FaPhoneAlt />
+                  +91-7023232013
                 </p>
                 <p className="number">
                   <IoMailSharp /> nitin77n@gmail.com
