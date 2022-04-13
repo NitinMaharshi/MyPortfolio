@@ -15,7 +15,7 @@ import { SiTypescript, SiRedux, SiExpress, SiMaterialui } from "react-icons/si";
 import { TiLocation } from "react-icons/ti";
 import { makeStyles } from "@material-ui/core/styles";
 import { Container, Grid } from "@material-ui/core";
-import home from "../../images/mypic.png";
+import home from "../../images/profile.jpg";
 import Tooltip from "@material-ui/core/Tooltip";
 
 const useStyles = makeStyles((theme) => ({
