@@ -45,7 +45,7 @@ function Home() {
             <div className="home_getstarted">
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1A4M3Gw-DmBH-plxnq07GDwG0KmlTYhZY/view?usp=sharing"
+                href="https://drive.google.com/file/d/1oe9ghanE6NOVHvhDayVihQ6wQ380pvj7/view?usp=sharing"
               >
                 <p className="mywork">Resume</p>
               </a>
